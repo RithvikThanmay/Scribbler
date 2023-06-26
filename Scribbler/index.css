@@ -1,0 +1,206 @@
+#scribbler{
+    font-family: 'Montez', cursive; 
+    font-size: xx-large;
+    color: blue;
+}
+
+  #Subheading{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#buttons{
+    color: white;
+    float: right;
+    margin: 0.3%;
+    border: 1%;
+}
+
+.Sign{
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    border: solid white;
+    background-color: white;
+}
+      
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+  }
+  
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+.form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .partition-line {
+    width: 100%;
+    border-top: 1px solid black;
+    margin: 5px 0;
+  }
+
+  input[type="submit"]{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: green;
+    color: white;
+  }
+
+  #Get-Started{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  body{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.posts {
+  display: flex;
+  justify-content: center;
+  margin-top: 17%;
+}
+
+.posts button{
+  background-color: orange;
+  margin: 5px;
+  width: 120px;
+  height: 50px;
+  font-size: medium;
+  border: 1%;
+  border-color: white;
+}
+
+#Welcome-Back{
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#notMemberText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+#switchToSignUp{
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+#createPostModal {
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  border: solid white;
+  background-color: white;
+  margin-bottom: 0.5%;
+}
+
+#createPostModal .modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin-bottom: 1%;
+}
+
+#createPostModal #modalTitle {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#createPostModal label {
+  font-weight: bold;
+}
+
+#createPostModal input[type="text"],
+#createPostModal textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#createPostModal .createButton {
+  width: 30%;
+  margin-left: 38%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 0.5%;
+  background-color: green;
+  color: white;
+}
+
+#createPostModal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+
+
+
+
+  
+  
+
+  
+
